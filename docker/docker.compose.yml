@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  db:
+    container_name: anime_teste
+    image:  mysql/mysql-server
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'anime_teste_db'
+      MYSQL_USER: 'root'
+      MYSQL_PASSWORD: 'root'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'

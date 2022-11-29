@@ -1,0 +1,11 @@
+*.idea
+gradle
+*.iml
+gradlew
+gradlew.bat
+HELP.md
+build
+target
+settings.gradle
+.gradle
+/src/main/resources/application-dev.yml
